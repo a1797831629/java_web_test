@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+			"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+			"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="package_java_test.UserInfo" table="tb_stu">
+<id name="studentID" column="studentID" type="int">
+	<!-- <generator class="native"></generator> -->
+</id>
+<property name="name" column="name" type="string" length="30"></property>
+<property name="age" column="age" type="int" length="10"></property>
+<property name="ID_number" column="ID_number" type="string" length="10"></property>
+<property name="address" column="address" type="string" length="20"></property>
+
+
+</class>
+			
+</hibernate-mapping>
